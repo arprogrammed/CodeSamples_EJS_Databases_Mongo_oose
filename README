@@ -1,0 +1,27 @@
+# Code Showcase 5
+
+This repo is for displaying the things I have learned to code and concepts grasped for coding in Javascript, EJS, Mongoose, MongoDB and using responses, requests, promises, NPM packages. Each file will contain comments that explain the code I used and my thinking behind it.
+
+### Sample_Blog
+
+This app is designed to deploy locally and use store and serve blog posts from MongoDB. *Uses JS, Node, Express, NPM, Resp, Req, Promises, Parsers, and MongoDB.* Keys have been removed.
+
+**Desired output:** A locally hosted app that will allow you to create, remove, and view blogposts.
+
+### testMongoose
+
+This app was deployed locally for my first tests and understanding of use with Mongoose. *Uses Express, Node NPM, Resp, Req, Promises, Parsers, and Mongoose.*
+
+**Desired output:** A locally hosted app that will preform basic actions with Mongoose.
+
+### To_Do_List_V1
+
+This app was deployed locally to build a sample To_Do_List. *Uses Express, Node NPM, Resp, Req, Promises, Parsers, and Mongoose.*
+
+**Desired output:** A locally hosted app that will allow for edge user to make to do list items and delete them.
+
+#### Markdown, Git CLI, and Github
+
+This document also displays a basic understanding of Markdown. Additionally the repo was create on Github, but the versioning and remote push were all executed from the CMD line with Git.
+
+> **Future Employers and Collaborators** If you have any more questions or would like to reach me feel free to reach out at <anthony.r.programmer@gmail.com>. I work hard to take a D.R.Y. approach and keep my code readable and clean.
