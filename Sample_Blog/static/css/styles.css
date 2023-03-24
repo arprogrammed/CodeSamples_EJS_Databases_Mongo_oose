@@ -1,0 +1,8 @@
+.blogposts {
+    color: rgb(48, 48, 48);
+}
+
+.blogposts:hover {
+    color: white;
+    background-color: rgb(24, 30, 36);
+}

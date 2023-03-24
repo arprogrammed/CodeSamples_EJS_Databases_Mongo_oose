@@ -1,0 +1,19 @@
+<%- include('partials/header') -%>
+<div class="container-fluid justify-content-center col-10">
+    <div class="container">
+    <% for (i=broll.length-1; i > -1; i--) { %>
+        <a class="text-decoration-none" href="/post/<%= broll[i]._id %>">
+        <div class="container blogposts my-3">
+            <div class="row">
+                <h2 class="h2 col-8"><%= broll[i].blgTitle %></h2>
+                <h4 class="h4 col-4 text-end"><%= broll[i].blgDate %></h4>
+            </div>
+            <div class="row">
+                <p class="col-10"><%= broll[i].blgTrunc %>... Read More!</p>
+            </div>
+        </div>
+        </a>
+    <% } %>
+    </div>
+</div>
+<%- include('partials/footer') -%>

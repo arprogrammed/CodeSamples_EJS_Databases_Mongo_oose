@@ -1,0 +1,27 @@
+<%- include('partials/header') -%>
+<div class="container-fluid justify-content-center"></div>
+    <form action="/contact" method="post">
+        <div class="container col-4 my-5">
+            <div class="row">
+                <label class="form-label">eMail Address</label>
+                <input class="form-control form-control-lg mb-3" type="email" name="email" placeholder="Your eMail Address">
+            </div>
+            <div class="row">
+                <label class="form-label">First Name</label>
+                <input class="form-control form-control-lg mb-3" type="text" name="fName" placeholder="Your First Name">
+            </div>
+            <div class="row">
+                <label class="form-label">Last Name</label>
+                <input class="form-control form-control-lg mb-3" type="text" name="lName" placeholder="Your Last Name">
+            </div>
+            <div class="row">
+                <label class="form-label">Message</label>
+                <input class="form-control form-control-lg mb-3" type="text" name="message" placeholder="Type your message here...">
+            </div>
+            <div class="row">
+                <button class="col-3 btn btn-dark" type="submit">Send</button>
+            </div>
+        </div>
+    </form>
+</div>
+<%- include('partials/footer') -%>
